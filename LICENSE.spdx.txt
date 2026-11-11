@@ -1,0 +1,6 @@
+SPDX-License-Identifier: MIT
+Copyright (c) 2026 weapon111
+https://github.com/weapon111/dsh-delete-conversation
+
+This project is licensed under the MIT License with an additional mandatory
+attribution clause. See LICENSE and NOTICE for the binding terms.
