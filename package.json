@@ -1,0 +1,54 @@
+{
+  "name": "@local/dsh-delete-conversation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH plugin: delete a conversation together with its local cache files (session log, projection cache, spill), workspace membership, and optionally the files it produced.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "host-runtime",
+    "conversation",
+    "delete",
+    "session"
+  ],
+  "author": "weapon111 (https://github.com/weapon111)",
+  "license": "MIT",
+  "contributors": [
+    "weapon111 (https://github.com/weapon111)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weapon111/dsh-delete-conversation.git"
+  },
+  "homepage": "https://github.com/weapon111/dsh-delete-conversation#readme",
+  "bugs": {
+    "url": "https://github.com/weapon111/dsh-delete-conversation/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-workspace"]
+    }
+  }
+}

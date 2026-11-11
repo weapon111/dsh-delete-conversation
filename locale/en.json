@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "Delete Conversation",
+    "description": "Adds a Delete action to each conversation: removes its local session log, projection cache and registry entry, and optionally the files it produced."
+  },
+  "menu.delete": "Delete conversation",
+  "dialog.title": "Delete this conversation?",
+  "dialog.intro": "This permanently deletes the conversation and its local cache files. It cannot be undone.",
+  "dialog.logs": "Local cache files",
+  "dialog.files": "Produced files (choose which to delete)",
+  "dialog.noFiles": "No produced files were recorded in this conversation.",
+  "dialog.alsoFiles": "Also delete the produced files listed above",
+  "dialog.confirm": "Delete conversation",
+  "dialog.cancel": "Cancel",
+  "dialog.deleting": "Deleting…",
+  "dialog.irreversible": "Deleting produced files removes them from your workspace permanently.",
+  "dialog.outside": "shared / outside this workspace — kept",
+  "dialog.outsideTitle": "Delivered files outside this workspace (not deleted)",
+  "dialog.outsideWarn": "These are usually shared assets (skills, tools, libraries). They are never deleted automatically.",
+  "toast.ok": "Conversation deleted",
+  "toast.failed": "Delete failed: {message}",
+  "error.title": "Could not delete conversation"
+}

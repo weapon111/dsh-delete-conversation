@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "title": "删除对话",
+    "description": "为每个会话提供「删除」操作：移除本地会话日志、投影缓存与注册表记录，并可一并删除该对话产出的文件。"
+  },
+  "menu.delete": "删除对话",
+  "dialog.title": "删除这个对话？",
+  "dialog.intro": "此操作会永久删除该对话及其本地缓存文件，且无法撤销。",
+  "dialog.logs": "本地缓存文件",
+  "dialog.files": "产出的文件（勾选要删除的）",
+  "dialog.noFiles": "该对话没有记录任何产出文件。",
+  "dialog.alsoFiles": "同时删除上面列出的产出文件",
+  "dialog.confirm": "删除对话",
+  "dialog.cancel": "取消",
+  "dialog.deleting": "正在删除…",
+  "dialog.irreversible": "删除产出文件会把它们从工作区中永久移除。",
+  "dialog.outside": "共享文件 / 工作区之外 — 保留",
+  "dialog.outsideTitle": "工作区之外引用的文件（不会删除）",
+  "dialog.outsideWarn": "这些通常是共享资源（技能、工具、库），不会被自动删除。",
+  "toast.ok": "对话已删除",
+  "toast.failed": "删除失败：{message}",
+  "error.title": "无法删除对话"
+}
